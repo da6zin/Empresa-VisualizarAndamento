@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    background-color: #04496D;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header .profile {
+    display: flex;
+    align-items: center;
+}
+.header .profile-icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.header .icon {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.message {
+    background-color: #04496D;
+    color: white;
+    padding: 10px;
+    margin: 130px 0 20px 0; /* Adjust margin to account for fixed header */
+    text-align: center;
+    width: 37%;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+.progress-container {
+    text-align: center;
+    width: 80%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.progress-label {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    background-color: #424242;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 30px;
+    width: 60%;
+    margin-left: 210px;
+}
+.progress-bar-inner {
+    background-color: #777;
+    height: 30px;
+    width: 30%;
+    margin-left: 0px;
+}
+.footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 250px
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+    box-shadow: -3px 0 5px rgba(0,0,0,0.2);
+}
+
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
