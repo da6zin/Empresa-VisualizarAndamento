@@ -41,7 +41,7 @@ body {
     background-color: #04496D;
     color: white;
     padding: 10px;
-    margin: 130px 0 20px 0; /* Adjust margin to account for fixed header */
+    margin: 130px 0 20px 0;
     text-align: center;
     width: 37%;
     box-sizing: content-box;
