@@ -1,4 +1,4 @@
-var homeUrl = "https://da6zin.github.io/Fortes-Engenharia---Empresa/"; // Substitua pelo site desejado
+var homeUrl = "https://da6zin.github.io/Fortes-Engenharia---Empresa/";
 document.getElementById('home-icon').onclick = function() {
     window.location.href = homeUrl;
 };
